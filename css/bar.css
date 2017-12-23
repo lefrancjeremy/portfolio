@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*body,
+html {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+}*/
+
+h3 {
+  font-size: 16px;
+  color: black;
+}
+
+
+/*--------------------
+Progress
+---------------------*/
+
+.progress-container {
+	width: 300px;
+	/*position: relative;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.progress {
+	width: 100%;
+	display: table;
+}
+
+.progress-bar-description {
+    position: relative;
+}
+	
+.progress-bar-description span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+	
+.progress-bar {
+    position: relative;
+    display: block;
+    height: 22px;
+    background-color: #efefef;
+
+}
+	
+.progress-bar .progress-bar-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /*background-color: #3abe9a;*/
+    background-color: #008080;
+}
+	
+.progress-bar .progress-bar-outer .progress-bar-inner:after {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 0;
+    height: 0; 
+    border-bottom: 22px solid #efefef;
+    border-left: 22px solid transparent; 
+    content: "";
+}
+	
+.progress-bar .progress-bar-outer .progress-bar-inner {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.col-lg-12{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  /*border: solid 0.1em gold;*/
+}
+h3>span{
+  padding-right: 10px;
+}
+.progress{
+  border-radius: 0rem !important;
+}
+h2{
+  margin-bottom: 10px;
+}
+#map{
+  /*border-bottom-style: solid blue 10px;*/
+  /*border-bottom-color: red !important;*/
+  /*border: solid 0.1em gold;*/
+}
+.design{
+  /*color: red !important;*/
+  color: #008080 !important;
+}
